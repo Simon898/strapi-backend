@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_klient_komponenty_fyzio_plans",
+  "info": {
+    "name": "Fyzio_plan",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Termin": {
+      "type": "datetime"
+    },
+    "Popis": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videa_pomockies",
+  "info": {
+    "name": "Videa_pomocky"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Typ_pomocky": {
+      "type": "enumeration",
+      "enum": [
+        "pomocka1",
+        "pomocka2",
+        "pomocka3",
+        "pomocka4",
+        "pomocka5",
+        "pomocka6"
+      ]
+    },
+    "Nazov_videa": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Popis": {
+      "type": "richtext"
+    }
+  }
+}

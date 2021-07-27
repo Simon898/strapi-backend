@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/videa-pomockies",
+      "handler": "videa-pomocky.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/videa-pomockies/count",
+      "handler": "videa-pomocky.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/videa-pomockies/:id",
+      "handler": "videa-pomocky.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/videa-pomockies",
+      "handler": "videa-pomocky.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/videa-pomockies/:id",
+      "handler": "videa-pomocky.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/videa-pomockies/:id",
+      "handler": "videa-pomocky.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

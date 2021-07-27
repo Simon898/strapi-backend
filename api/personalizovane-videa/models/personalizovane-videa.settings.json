@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personalizovane_videas",
+  "info": {
+    "name": "Personalizovane_Videa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nazov_videa": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "Vseobecny_popis": {
+      "type": "richtext"
+    },
+    "Typ": {
+      "type": "string"
+    }
+  }
+}

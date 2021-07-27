@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/personalizovane-videas",
+      "handler": "personalizovane-videa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/personalizovane-videas/count",
+      "handler": "personalizovane-videa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/personalizovane-videas/:id",
+      "handler": "personalizovane-videa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/personalizovane-videas",
+      "handler": "personalizovane-videa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/personalizovane-videas/:id",
+      "handler": "personalizovane-videa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/personalizovane-videas/:id",
+      "handler": "personalizovane-videa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

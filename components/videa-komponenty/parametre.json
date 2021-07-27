@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_parametre_parametres",
+  "info": {
+    "name": "Novy_den",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Tyzden": {
+      "type": "integer",
+      "max": 8,
+      "min": 1
+    },
+    "Video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videa-komponenty.video-s-pers-popisom"
+    },
+    "Den": {
+      "type": "enumeration",
+      "enum": [
+        "pondelok",
+        "utorok",
+        "streda",
+        "stvrtok",
+        "piatok",
+        "sobota",
+        "nedela"
+      ]
+    }
+  }
+}

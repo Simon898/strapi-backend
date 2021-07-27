@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_videa_komponenty_video_s_pers_popisoms",
+  "info": {
+    "name": "Video_s_pers_popisom",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "personalizovane_videa": {
+      "model": "personalizovane-videa"
+    },
+    "Personalizovany_popis": {
+      "type": "richtext"
+    }
+  }
+}
